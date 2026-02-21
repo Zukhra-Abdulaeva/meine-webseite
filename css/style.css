@@ -13,10 +13,6 @@ body {
     line-height: 1.6;
 }
 
-.main-title { 
-    font-size: 58px; /* oder  58px, 7rem etc. */ 
-}
-
 /* ===== Hero Section ===== */
 .hero {
     display: flex;
@@ -51,8 +47,8 @@ body {
 }
 
 /* Hero Text Styling */
-.hero-text h1 {
-    font-size: inherit;
+.hero-text h1.main-title {
+    font-size: 5rem;
     margin-bottom: 20px;
 }
 
