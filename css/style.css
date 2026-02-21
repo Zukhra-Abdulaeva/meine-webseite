@@ -73,23 +73,23 @@ body {
     display: flex;
     flex-direction: column;   /* Elemente untereinander */
     
-    margin-top: 40px;
+    margin-top: 80px;
     max-width: 900px;
-    text-align: center;
+    /*text-align: center;*/
     line-height: 1.8;
     font-size: 1.2rem;
+    color: #a0a0ff;
 }
 
 /* ===== Allgemeine Sections ===== */
 .section {
-    padding: 10px 10px;
+    padding: 20px 20px;
     text-align: center;
 }
 
 .section h2 {
     font-size: 2rem;
     margin-bottom: 40px;
-    color: #a0a0ff;
 }
 
 /* ===== About Section speziell ===== */
@@ -98,7 +98,7 @@ body {
     flex-direction: column;   /* Elemente untereinander */
     align-items: center;      /* alles mittig */
     margin-top: 60px;          /* Abstand zur Hero Section */
-    padding: 5px 5px;        /* Luft oben/unten */
+    padding: 20px 40px;        /* Luft oben/unten */
     text-align: center;
 }
 
@@ -114,6 +114,7 @@ body {
 /* Titel optisch mit Text verbinden */
 #about h2 {
     margin-bottom: 25px;
+    color: #a0a0ff;
 }
 
 /* ===== Karten ===== */
