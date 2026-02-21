@@ -13,6 +13,8 @@ body {
     line-height: 1.6;
 }
 
+.main-title { font-size: 48px; /* oder 3rem, 4rem etc. */ }
+
 /* ===== Hero Section ===== */
 .hero {
     display: flex;
