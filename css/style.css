@@ -70,6 +70,9 @@ body {
 
 /* About-Text im Hero */
 .hero-about {
+    display: flex;
+    flex-direction: column;   /* Elemente untereinander */
+    
     margin-top: 40px;
     max-width: 900px;
     text-align: center;
@@ -79,7 +82,7 @@ body {
 
 /* ===== Allgemeine Sections ===== */
 .section {
-    padding: 60px 50px;
+    padding: 10px 10px;
     text-align: center;
 }
 
@@ -95,7 +98,7 @@ body {
     flex-direction: column;   /* Elemente untereinander */
     align-items: center;      /* alles mittig */
     margin-top: 60px;          /* Abstand zur Hero Section */
-    padding: 80px 20px;        /* Luft oben/unten */
+    padding: 5px 5px;        /* Luft oben/unten */
     text-align: center;
 }
 
