@@ -95,9 +95,10 @@ body {
     flex-direction: column;   /* Elemente untereinander */
     /*justify-content: center;   /* Inhalt horizontal zentrieren */
     align-items: center;
-    text-align: center;
+    /*text-align: center;*/
     margin-top: 60px;          /* Abstand zur Hero Section */
     padding: 80px 20px;        /* Luft oben/unten */
+    text-align: center;
 }
 
 /* Begrenzte Textbreite (kein Fullscreen-Text) */
