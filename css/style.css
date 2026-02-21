@@ -16,41 +16,33 @@ body {
 /* ===== Hero Section ===== */
 .hero {
     display: flex;
-    justify-content: space-between;
     align-items: center;
+    justify-content: flex-start; /* Text links */
     padding: 50px;
     min-height: 90vh;
+
+    /* Hintergrundbild */
+    background-image: url('../images/hero.png'); 
+    background-size: cover;      /* Bild passt sich an */
+    background-position: center; /* zentriert */
+    background-repeat: no-repeat;
+    position: relative;
+    color: #fff;
 }
 
-.hero-text h1 {
-    font-size: 3rem;
-    margin-bottom: 20px;
+/* Optional: Overlay für besseren Kontrast */
+.hero::before {
+    content: "";
+    position: absolute;
+    top: 0; left: 0;
+    width: 100%; height: 100%;
+    background: rgba(0,0,0,0.5); /* halbtransparentes Schwarz */
+    z-index: 0;
 }
 
-.hero-text p {
-    font-size: 1.2rem;
-    margin-bottom: 10px;
-}
-
-.tagline {
-    color: #00ffff;
-}
-
-.hero-image img {
-    max-width: 500px;
-    border-radius: 10px;
-}
-
-/* ===== Allgemeine Sections ===== */
-.section {
-    padding: 60px 50px;
-    text-align: center;
-}
-
-.section h2 {
-    font-size: 2rem;
-    margin-bottom: 40px;
-    color: #a0a0ff;
+.hero-text {
+    position: relative;
+    z-index: 1; /* Text über Overlay */
 }
 
 /* ===== Karten ===== */
