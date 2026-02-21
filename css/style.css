@@ -17,32 +17,32 @@ body {
 .hero {
     display: flex;
     align-items: center;
-    justify-content: flex-start; /* Text links */
+    justify-content: flex-start;
     padding: 50px;
-    min-height: 90vh;
-
-    /* Hintergrundbild */
+    min-height: 100vh; /* jetzt volle Bildschirmhöhe */
     background-image: url('../images/hero.png'); 
-    background-size: cover;      /* Bild passt sich an */
-    background-position: center; /* zentriert */
+    background-size: cover;      /* füllt den Bereich */
+    background-position: center; /* zentriert das Bild */
     background-repeat: no-repeat;
     position: relative;
     color: #fff;
 }
 
-/* Optional: Overlay für besseren Kontrast */
+/* Overlay für bessere Lesbarkeit */
 .hero::before {
     content: "";
     position: absolute;
     top: 0; left: 0;
     width: 100%; height: 100%;
-    background: rgba(0,0,0,0.5); /* halbtransparentes Schwarz */
+    background: rgba(0,0,0,0.4); /* halbtransparentes Schwarz */
     z-index: 0;
 }
 
+/* Text über Overlay */
 .hero-text {
     position: relative;
-    z-index: 1; /* Text über Overlay */
+    z-index: 1;
+    max-width: 600px;  /* Textblock nicht zu breit */
 }
 
 /* ===== Karten ===== */
