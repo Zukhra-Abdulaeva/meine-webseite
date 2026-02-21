@@ -72,6 +72,29 @@ body {
     color: #a0a0ff;
 }
 
+/* ===== About Section speziell ===== */
+#about {
+    display: flex;
+    justify-content: center;   /* Inhalt horizontal zentrieren */
+    align-items: center;
+    text-align: center;
+
+    margin-top: 60px;          /* Abstand zur Hero Section */
+    padding: 80px 20px;        /* Luft oben/unten */
+}
+
+/* Begrenzte Textbreite (kein Fullscreen-Text) */
+#about p {
+    max-width: 900px;          /* sorgt für große Ränder links/rechts */
+    font-size: 1.2rem;
+    line-height: 1.8;
+}
+
+/* Titel optisch mit Text verbinden */
+#about h2 {
+    margin-bottom: 25px;
+}
+
 /* ===== Karten ===== */
 .cards {
     display: flex;
