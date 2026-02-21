@@ -52,7 +52,7 @@ body {
 
 /* Hero Text Styling */
 .hero-text h1 {
-    font-size: 3rem;
+    font-size: inherit;
     margin-bottom: 20px;
 }
 
