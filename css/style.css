@@ -60,6 +60,21 @@ body {
     color: #00ffff; /* Cyan Akzent */
 }
 
+/* Inhalt im Hero vertikal stapeln */
+.hero-content {
+    position: relative;
+    z-index: 1;
+    max-width: 900px;
+}
+
+/* About-Text im Hero */
+.hero-about {
+    margin-top: 40px;
+    max-width: 900px;
+    text-align: center;
+    line-height: 1.8;
+    font-size: 1.2rem;
+}
 /* ===== Allgemeine Sections ===== */
 .section {
     padding: 60px 50px;
