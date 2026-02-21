@@ -103,6 +103,8 @@ body {
     max-width: 900px;          /* sorgt für große Ränder links/rechts */
     font-size: 1.2rem;
     line-height: 1.8;
+    text-align: justify;   /* Blocksazt */
+    text-align-last: center;
 }
 
 /* Titel optisch mit Text verbinden */
