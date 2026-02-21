@@ -17,7 +17,7 @@ body {
 .hero {
     display: flex;
     align-items: center;
-    justify-content: flex-start; /* Text links */
+    justify-content: flex-start; 
     padding: 50px;
     min-height: 100vh; /* volle Höhe des Bildschirms */
     background-image: url('hero1.png');
