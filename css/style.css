@@ -1,18 +1,19 @@
-/* Reset für Browser-Defaults */
+/* ===== Reset ===== */
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-/* Body */
+/* ===== Body ===== */
 body {
     font-family: 'Arial', sans-serif;
     background-color: #0e0f1a;
     color: #fff;
+    line-height: 1.6;
 }
 
-/* Hero Section */
+/* ===== Hero Section ===== */
 .hero {
     display: flex;
     justify-content: space-between;
@@ -32,10 +33,73 @@ body {
 }
 
 .tagline {
-    color: #00ffff; /* Cyan Akzent */
+    color: #00ffff;
 }
 
 .hero-image img {
     max-width: 500px;
     border-radius: 10px;
 }
+
+/* ===== Allgemeine Sections ===== */
+.section {
+    padding: 60px 50px;
+    text-align: center;
+}
+
+.section h2 {
+    font-size: 2rem;
+    margin-bottom: 40px;
+    color: #a0a0ff;
+}
+
+/* ===== Karten ===== */
+.cards {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+.card {
+    background-color: #1c1d2a;
+    padding: 20px;
+    border-radius: 10px;
+    width: 300px;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20px rgba(0,255,255,0.2);
+}
+
+.card h3 {
+    margin-bottom: 15px;
+    color: #00ffff;
+}
+
+.card ul {
+    list-style-type: none;
+}
+
+.card li {
+    margin-bottom: 10px;
+}
+
+/* ===== Footer ===== */
+footer {
+    padding: 20px;
+    background-color: #0a0b12;
+    text-align: center;
+}
+
+footer a {
+    color: #00ffff;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
