@@ -19,9 +19,7 @@ body {
     align-items: center;
     justify-content: flex-start; 
     padding: 50px;
-    height: 20vh; /* Höhe des Bildschirms */
-    min-height: 200px; 
-
+    height: 20vh; /* Höhe des Bildschirms */ 
     background-image: url('../images/hero1.png');
     background-size: cover;      /* Bild passt sich an */
     background-position: center; /* zentriert */
