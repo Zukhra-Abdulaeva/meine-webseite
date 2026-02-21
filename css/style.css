@@ -13,7 +13,9 @@ body {
     line-height: 1.6;
 }
 
-.main-title { font-size: 58px; /* oder 3rem, 4rem etc. */ }
+.main-title { 
+    font-size: 5rem; /* oder  58px, 7rem etc. */ 
+}
 
 /* ===== Hero Section ===== */
 .hero {
