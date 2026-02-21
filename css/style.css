@@ -92,7 +92,8 @@ body {
 /* ===== About Section speziell ===== */
 #about {
     display: flex;
-    justify-content: center;   /* Inhalt horizontal zentrieren */
+    flex-direction: column;   /* Elemente untereinander */
+    /*justify-content: center;   /* Inhalt horizontal zentrieren */
     align-items: center;
     text-align: center;
     margin-top: 60px;          /* Abstand zur Hero Section */
