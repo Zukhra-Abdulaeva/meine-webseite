@@ -20,7 +20,7 @@ body {
     justify-content: flex-start; 
     padding: 50px;
     min-height: 100vh; /* volle Höhe des Bildschirms */
-    background-image: url('hero1.png');
+    background-image: url('../images/hero1.png');
     background-size: cover;      /* Bild passt sich an */
     background-position: center; /* zentriert */
     background-repeat: no-repeat;
