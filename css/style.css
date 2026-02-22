@@ -9,99 +9,93 @@
 body {
     font-family: 'Arial', sans-serif;
     background-color: #0e0f1a;
-    color: #fff;
+    color: #ffffff;
     line-height: 1.6;
 }
 
-/* ===== Hero Section ===== */
+/* ===================================================== */
+/* ================= HERO SECTION ====================== */
+/* ===================================================== */
+
 .hero {
     display: flex;
-    justify-content: flex-start;  /* links im Bild */
-    /*justify-content: center;   /* Inhalt mittig statt links */
-    padding-left: 60px;           /* Abstand vom Rand */
-    padding-top: 40px;            /* Abstand vom Oben */
     align-items: center;
-    height: 50vh; /* Höhe des Bildschirms */ 
-    min-height: 400px;
+    justify-content: flex-start;
+    padding-left: 60px;
+    padding-right: 20px;
+    height: 50vh;
+    min-height: 420px;
+
     background-image: url('../images/hero3.png');
-    background-size: cover;      /* Bild passt sich an */
-    background-position: center; /* zentriert */
+    background-size: cover;
+    background-position: center;
     background-repeat: no-repeat;
+
     position: relative;
-    color: #fff;
 }
 
-/* Overlay für bessere Lesbarkeit */
+/* Overlay für Lesbarkeit */
 .hero::before {
     content: "";
     position: absolute;
-    top: 0; left: 0;
-    width: 100%; height: 100%;
-    background: rgba(0,0,0,0.4); /* halbtransparentes Schwarz */
+    inset: 0;
+    background: rgba(10, 12, 24, 0.55);
     z-index: 0;
 }
 
-/* Text über Overlay */
-.hero-text {
+/* ===== Hero Content Layout ===== */
+.hero-content {
     position: relative;
     z-index: 1;
-    max-width: 600px;  /* Textblock nicht zu breit */
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    max-width: 680px;
 }
 
-/* ===== Hero Text Styling ===== */
+/* ===== Name ===== */
 .hero-text h1.main-title {
     font-size: 3rem;
-    margin-bottom: 10px;
-}
-
-.hero-text p {
-    font-size: 1.2rem;
-    margin-bottom: 10px;
-}
-
-.main-title {
+    font-weight: 600;
+    letter-spacing: 0.5px;
+    margin-bottom: 8px;
     color: #ffffff;
 }
 
-.tagline {
-    color: #00ffff; /* Cyan Akzent */
+/* ===== Berufszeile ===== */
+.hero-text p {
     font-size: 1.1rem;
-    margin-bottom: 20px;
+    color: #bfc7ff;
+    letter-spacing: 0.3px;
+    margin-bottom: 10px;
 }
 
-/* Inhalt im Hero vertikal stapeln */
-.hero-content {
-    display: flex;
-    flex-direction: column;   /* Elemente untereinander */
-    align-items: flex-start;  /* links ausrichten statt mittig */
-    text-align: left;         /* Text links */
-    /*align-items: center;      /* alles horizontal zentriert */
-    /*text-align: center;*/
-    max-width: 600px;
-    margin-top: 20px;         /* nach unten schieben*/
+/* ===== Tagline ===== */
+.tagline {
+    font-size: 1.05rem;
+    color: #00e6ff;
+    margin-bottom: 22px;
 }
 
-/* About-Text im Hero */
+/* ===== About Text im Hero ===== */
 .hero-about {
-    margin-top: 20px;
-    max-width: 600px;
-    /*text-align: center;*/
-    /*text-align: justify;   /* Blocksazt */
-    font-size: 1rem;
-    line-height: 1.5;
-    /*color: #a0a0ff;*/
+    max-width: 620px;
+    font-size: 0.98rem;
+    line-height: 1.65;
     color: #c7c9d3;
+    text-align: justify;
 }
 
 .hero-about p {
-    text-align: justify;
-    text-align-last: center;
-    color: #ECD8FD;
+    text-align-last: left;
 }
 
-/* ===== Allgemeine Sections ===== */
+/* ===================================================== */
+/* ================= ALLGEMEINE SECTIONS =============== */
+/* ===================================================== */
+
 .section {
-    padding: 20px 20px;
+    padding: 60px 20px;
     text-align: center;
 }
 
@@ -110,9 +104,13 @@ body {
     margin-bottom: 25px;
     color: #8ea2ff;
 }
-/* ===== Value Sections ===== */
+
+/* ===================================================== */
+/* ================= VALUE SECTION ===================== */
+/* ===================================================== */
+
 #value {
-    padding-top: 40px;   /* Abstand zum Hero */
+    padding-top: 40px;
 }
 
 #value h2 {
@@ -123,36 +121,40 @@ body {
 #value p {
     color: #c7c9d3;
     font-size: 1.05rem;
-    margin-bottom: 10px;
-    line-height: 1.15;
+    margin-bottom: 12px;
+    line-height: 1.6;
 }
 
-/* ===== About Section speziell ===== */
+/* ===================================================== */
+/* ================= ABOUT SECTION ===================== */
+/* ===================================================== */
+
 #about {
     display: flex;
-    flex-direction: column;   /* Elemente untereinander */
-    align-items: center;      /* alles mittig */
-    margin-top: 60px;          /* Abstand zur Hero Section */
-    padding: 20px 20px;        /* Luft oben/unten */
+    flex-direction: column;
+    align-items: center;
+    margin-top: 60px;
+    padding: 20px;
     text-align: center;
 }
 
-/* Begrenzte Textbreite (kein Fullscreen-Text) */
 #about p {
-    max-width: 900px;          /* sorgt für große Ränder links/rechts */
-    font-size: 1.2rem;
+    max-width: 900px;
+    font-size: 1.1rem;
     line-height: 1.8;
-    text-align: justify;   /* Blocksazt */
+    text-align: justify;
     text-align-last: center;
 }
 
-/* Titel optisch mit Text verbinden */
 #about h2 {
     margin-bottom: 25px;
     color: #a0a0ff;
 }
 
-/* ===== Karten ===== */
+/* ===================================================== */
+/* ================= CARDS ============================= */
+/* ===================================================== */
+
 .cards {
     display: flex;
     justify-content: center;
@@ -162,20 +164,20 @@ body {
 
 .card {
     background-color: #1c1d2a;
-    padding: 20px;
-    border-radius: 10px;
+    padding: 22px;
+    border-radius: 12px;
     width: 300px;
-    transition: transform 0.3s, box-shadow 0.3s;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
 .card:hover {
-    transform: translateY(-5px);
-    box-shadow: 0 10px 20px rgba(0,255,255,0.2);
+    transform: translateY(-6px);
+    box-shadow: 0 12px 25px rgba(0,255,255,0.18);
 }
 
 .card h3 {
     margin-bottom: 15px;
-    color: #00ffff;
+    color: #00e6ff;
 }
 
 .card ul {
@@ -184,9 +186,13 @@ body {
 
 .card li {
     margin-bottom: 10px;
+    color: #c7c9d3;
 }
 
-/* ===== Footer ===== */
+/* ===================================================== */
+/* ================= FOOTER ============================ */
+/* ===================================================== */
+
 footer {
     padding: 20px;
     background-color: #0a0b12;
@@ -194,7 +200,7 @@ footer {
 }
 
 footer a {
-    color: #00ffff;
+    color: #00e6ff;
     text-decoration: none;
 }
 
@@ -202,41 +208,55 @@ footer a:hover {
     text-decoration: underline;
 }
 
-/* ===== Responsive Design ===== */
-@media (max-width: 1024px) {
+/* ===================================================== */
+/* ================= RESPONSIVE ======================== */
+/* ===================================================== */
+
+@media (max-width: 900px) {
+
     .hero {
-        flex-direction: column;
-        text-align: center;
-        justify-content: center;
+        padding-left: 30px;
+        height: auto;
+        padding-top: 80px;
+        padding-bottom: 80px;
     }
 
-    .hero-text {
+    .hero-text h1.main-title {
+        font-size: 2.2rem;
+    }
+
+    .hero-text p {
+        font-size: 1rem;
+    }
+
+    .tagline {
+        font-size: 0.95rem;
+    }
+
+    .hero-about {
+        font-size: 0.95rem;
         max-width: 90%;
-    }
-
-    .cards {
-        flex-direction: column;
-        align-items: center;
     }
 }
 
 @media (max-width: 600px) {
-    /*.hero-text h1 {
-        font-size: 2rem;
-    }*/
-    
-    .hero-text h1.main-title {
-        font-size: 2rem;
+
+    .hero {
+        justify-content: center;
+        padding-left: 20px;
+        padding-right: 20px;
+        text-align: center;
     }
-    
-    .hero-text p {
-        font-size: 1rem;
+
+    .hero-content {
+        align-items: center;
     }
-    
-    .tagline {
-        font-size: 0.95rem;
+
+    .hero-about p {
+        text-align: justify;
+        text-align-last: center;
     }
-    
+
     .card {
         width: 90%;
     }
