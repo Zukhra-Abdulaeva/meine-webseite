@@ -104,8 +104,24 @@ body {
 
 .section h2 {
     font-size: 2rem;
-    margin-bottom: 40px;
+    margin-bottom: 25px;
     color: #8ea2ff;
+}
+/* ===== Value Sections ===== */
+#value {
+    padding-top: 40px;   /* Abstand zum Hero */
+}
+
+#value h2 {
+    color: #8ea2ff;
+    margin-bottom: 20px;
+}
+
+#value p {
+    color: #c7c9d3;
+    font-size: 1.05rem;
+    margin-bottom: 10px;
+    line-height: 1.6;
 }
 
 /* ===== About Section speziell ===== */
