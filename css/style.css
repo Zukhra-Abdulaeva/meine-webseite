@@ -19,6 +19,7 @@ body {
     justify-content: flex-start;  /* links im Bild */
     /*justify-content: center;   /* Inhalt mittig statt links */
     padding-left: 60px;           /* Abstand vom Rand */
+    padding-top: 40px;            /* Abstand vom Oben */
     align-items: center;
     height: 50vh; /* Höhe des Bildschirms */ 
     min-height: 500px;
@@ -75,6 +76,7 @@ body {
     /*align-items: center;      /* alles horizontal zentriert */
     /*text-align: center;*/
     max-width: 900px;
+    margin-top: 20px;         /* nach unten schieben*/
 }
 
 /* About-Text im Hero */
