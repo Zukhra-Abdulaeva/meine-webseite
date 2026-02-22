@@ -57,6 +57,10 @@ body {
     margin-bottom: 10px;
 }
 
+.main-title {
+    color: #ffffff;
+}
+
 .tagline {
     color: #00ffff; /* Cyan Akzent */
 }
@@ -77,7 +81,8 @@ body {
     /*text-align: center;*/
     line-height: 1.8;
     font-size: 1.15rem;
-    color: #a0a0ff;
+    /*color: #a0a0ff;*/
+    color: #c7c9d3;
 }
 
 .hero-about p {
@@ -94,6 +99,7 @@ body {
 .section h2 {
     font-size: 2rem;
     margin-bottom: 40px;
+    color: #8ea2ff;
 }
 
 /* ===== About Section speziell ===== */
