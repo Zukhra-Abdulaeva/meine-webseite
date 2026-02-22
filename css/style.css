@@ -221,9 +221,9 @@ footer a:hover {
 }
 
 @media (max-width: 600px) {
-    .hero-text h1 {
+    /*.hero-text h1 {
         font-size: 2rem;
-    }
+    }*/
     
     .hero-text h1.main-title {
         font-size: 2rem;
