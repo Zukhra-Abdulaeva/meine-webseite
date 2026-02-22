@@ -51,29 +51,29 @@ body {
 
 /* Name */
 .hero-text h1.main-title {
-    font-size: 1.3rem;
+    font-size: 1.15rem;
     font-weight: 600;
     margin-bottom: 3px;
 }
 
 /* Rolle */
 .role {
-    font-size: 0.75rem;
+    font-size: 0.7rem;
     color: #bfc7ff;
-    margin-bottom: 2px;
+    margin-bottom: 14px;
 }
 
 /* Tagline */
 .tagline {
-    font-size: 0.75rem;
+    font-size: 0.7rem;
     color: #00e6ff;
-    margin-bottom: 6px;
+    margin-bottom: 10px;
 }
 
 /* About im Hero */
 .hero-about {
     max-width: 400px;
-    font-size: 0.75rem;
+    font-size: 0.7rem;
     line-height: 1.35;
     color: #c7c9d3;
     text-align: justify;
