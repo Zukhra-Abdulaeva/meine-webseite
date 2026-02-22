@@ -53,7 +53,7 @@ body {
 .hero-text h1.main-title {
     font-size: 1.15rem;
     font-weight: 600;
-    margin-bottom: 3px;
+    margin-bottom: 5px;
 }
 
 /* Rolle */
@@ -62,7 +62,7 @@ body {
     overflow-x: auto;
     font-size: 0.7rem;
     color: #bfc7ff;
-    margin-bottom: 14px;
+    margin-bottom: 30px;
 }
 
 /* Tagline */
@@ -70,6 +70,7 @@ body {
     font-size: 0.7rem;
     color: #00e6ff;
     margin-bottom: 10px;
+    margin-top: 0;
 }
 
 /* About im Hero */
