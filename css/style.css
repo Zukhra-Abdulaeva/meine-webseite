@@ -58,6 +58,8 @@ body {
 
 /* Rolle */
 .role {
+    white-space: nowrap; 
+    overflow-x: auto;
     font-size: 0.7rem;
     color: #bfc7ff;
     margin-bottom: 14px;
