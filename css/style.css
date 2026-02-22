@@ -85,8 +85,8 @@ body {
     max-width: 800px;
     /*text-align: center;*/
     text-align: justify;   /* Blocksazt */
-    line-height: 1.8;
-    font-size: 1.15rem;
+    line-height: 1;
+    font-size: 1rem;
     /*color: #a0a0ff;*/
     color: #c7c9d3;
 }
