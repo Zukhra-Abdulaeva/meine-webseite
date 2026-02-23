@@ -51,23 +51,23 @@ body {
 
 /* Name */
 .hero-text h1.main-title {
-    font-size: 1.15rem;
+    font-size: 3rem;
     font-weight: 600;
     margin-bottom: 5px;
 }
 
 /* Rolle */
 .role {
-    /*white-space: nowrap;*/
+    white-space: nowrap;
     overflow-x: auto;
-    font-size: 0.7rem;
+    font-size: 1rem;
     color: #bfc7ff;
     margin-bottom: 30px;
 }
 
 /* Tagline */
 .tagline {
-    font-size: 0.7rem;
+    font-size: 1rem;
     color: #00e6ff;
     margin-bottom: 10px;
     margin-top: 0;
